@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/green300"
+    tools:context=".fragments.FragmentAdd">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить заметку:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="50sp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/editDesc"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Введите описание"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить.Нажимает Дзибук"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
