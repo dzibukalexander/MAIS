@@ -1,1 +1,1 @@
-Repository for labaratory works on the subject MAIS.
+Repository for labaratory works on the subject MAIS
