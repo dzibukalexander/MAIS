@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20px"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multimedia.Dzibuk clicks"/>
+    <Button
+        android:id="@+id/bGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gallery"/>
+    <Button
+        android:id="@+id/bCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Designed by Dzibuk"
+        android:textSize="20dp"
+        android:gravity="bottom"/>
+
+</LinearLayout>
