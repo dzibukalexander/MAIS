@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20px"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Подключиться к сети"/>
+
+    <TextView
+        android:id="@+id/tvHttpUrlConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnHttpUrlConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpUrlConnection"/>
+
+    <Button
+        android:id="@+id/btnHttpGETrequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btnHttpGETrequest"/>
+
+    <TextView
+        android:id="@+id/tvSocket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="20px"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnSecondActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти во вторую активность. Нажимает Дзибук"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Разработал Дзибук"
+        android:textSize="20dp"
+        android:gravity="bottom"/>
+
+</LinearLayout>
